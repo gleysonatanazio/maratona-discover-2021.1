@@ -8,40 +8,86 @@
 </head>
 
 <body>
-    <h1>Controle Financeiro</h1>
+    <header>
+        <h1 id="logo">Controle Financeiro</h1>
+    </header>
 
-    <h2>Balanço</h2>
-    <h3>Entradas</h3>
-    <p>R$ 5.000,00</p>
+    <main>
+        <section id="balance">
+            <h2>Balanço</h2>
+        </section>
+        <div class="card">
+            <h3>Entradas</h3>
+            <p>R$ 5.000,00</p>
+        </div>
+        <div class="card">
+            <h3>Saídas</h3>
+            <p>R$ 2.000,00</p>
+        </div>
+        <div class="card">
+            <h3>Total</h3>
+            <p>R$ 3.000,00</p>
+        </div>
+        <section id="transaction">
+            <h2>Transações</h2>
 
-    <h3>Saídas</h3>
-    <p>R$ 2.000,00</p>
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                        <th>Data do Título</th>
+                        <th>Vencimento</th>
+                        <th>Baixado ?</th>
+                        <th>Conciliado? </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Celpe</td>
+                        <!--credor-->
+                        <td>- R$ 500,00</td>
+                        <!--valor-->
+                        <td>19/01/2021</td>
+                        <!--data do título-->
+                        <td>19/02/2021</td> <!-- vencimento -->
+                        <td>Sim</td>
+                        <!--mostra se foi baixado-->
+                        <td>Não</td>
+                        <!--mostra se foi conciliado-->
+                    </tr>
 
-    <h3>Total</h3>
-    <p>R$ 3.000,00</p>
+                    <tr>
+                        <td>Salário</td>
+                        <!--credor-->
+                        <td> R$ 2.500,00</td>
+                        <!--valor-->
+                        <td>19/01/2021</td>
+                        <!--data do título-->
+                        <td>19/02/2021</td> <!-- vencimento -->
+                        <td>Sim</td>
+                        <!--mostra se foi baixado-->
+                        <td>Não</td>
+                        <!--mostra se foi conciliado-->
+                    </tr>
 
-    <h2>Transações</h2>
-
-    <table>
-        <thead>
-            <tr>
-                <th>Descrição</th>
-                <th>Valor</th>
-                <th>Data</th>
-                <th>Baixado?</th>
-                <th>Conciliado</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Celpe</td> <!--credor-->
-                <td>Aluguel</td> <!--valor-->
-                <td>Feira</td> <!--data-->  
-                <td>Sim</td> <!--mostra se foi baixado-->
-                <td>Não</td> <!--mostra se foi conciliado-->
-            </tr>
-        </tbody>
-    </table>
+                    <tr>
+                        <td>Interne</td>
+                        <!--credor-->
+                        <td>- R$ 79,90</td>
+                        <!--valor-->
+                        <td>01/02/2021</td>
+                        <!--data do título-->
+                        <td>01/03/2021</td> <!-- vencimento -->
+                        <td>Sim</td>
+                        <!--mostra se foi baixado-->
+                        <td>Não</td>
+                        <!--mostra se foi conciliado-->
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
 </body>
 
 </html>
