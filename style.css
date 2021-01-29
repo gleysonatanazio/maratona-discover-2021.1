@@ -11,6 +11,11 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.container {
+    width: min(90vw, 800px);
+    
+}
+
 /* Header */
 header{
     background: #2d4a22;
