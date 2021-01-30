@@ -19,6 +19,10 @@ body {
 /* Title =============*/
 h2 {
     margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color: 363f5f;
+
+    font-weight: normal;
 }
 /* Header */
 header{
@@ -35,7 +39,7 @@ header{
 /* Balance===================== */
 #balance {
     margin-top: -8rem;
-}
+    }
 
 #balance h2 {
     color: white;
