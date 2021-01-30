@@ -13,10 +13,13 @@ body {
 
 .container {
     width: min(90vw, 800px);
-    margin: auto;
-    
+    margin: auto;   
 }
 
+/* Title =============*/
+h2 {
+    margin-top: 3.2rem;
+}
 /* Header */
 header{
     background: #2d4a22;
@@ -30,6 +33,11 @@ header{
 }
 
 /* Balance===================== */
+#balance {
+    margin-top: -8rem;
+}
+
+#ba
 
 /* Footer ==================*/
 
