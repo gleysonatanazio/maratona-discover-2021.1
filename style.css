@@ -37,7 +37,9 @@ header{
     margin-top: -8rem;
 }
 
-#ba
+#balance h2 {
+    color: white;
+}
 
 /* Footer ==================*/
 
