@@ -13,6 +13,7 @@ body {
 
 .container {
     width: min(90vw, 800px);
+    margin: auto;
     
 }
 
@@ -28,6 +29,12 @@ header{
     font-weight: 100;
 }
 
-/* Balance */
+/* Balance===================== */
+
+/* Footer ==================*/
+
+footer{
+    text-align: center;
+}
 
 
