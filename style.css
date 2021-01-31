@@ -79,6 +79,14 @@ header{
     color:white;
 }
 
+/* table ========== */
+#data-table {
+    width: 100%;
+}
+
+table td {
+    background: white;
+}
 /* Footer ==================*/
 
 footer{
