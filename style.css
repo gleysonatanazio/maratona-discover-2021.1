@@ -1,7 +1,7 @@
 /* Global ======= */
 /* root Referencia uma variavel em toda tag Html */
 :root { 
-    --dark-blue
+    --dark-blue:#363f5f;
 }
 
 * {
