@@ -1,5 +1,7 @@
 /* Global */
+:root { 
 
+} /* Referencia toda tag Html */
 * {
     margin: 0;
     padding: 0;
@@ -51,7 +53,7 @@ header{
 .card {
     background: white;
     padding: 1.5rem;
-    border-radius: 0.25;
+    border-radius: 0.30;
 }
 
 /* Footer ==================*/
