@@ -48,6 +48,10 @@ header{
 
 /*cards ======*/
 
+.card {
+    background: white;
+}
+
 /* Footer ==================*/
 
 footer{
