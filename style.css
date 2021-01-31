@@ -74,6 +74,11 @@ header{
     margin-top: 1rem;
 }
 
+.card.total {
+    background: #49aa26;
+    color:white;
+}
+
 /* Footer ==================*/
 
 footer{
