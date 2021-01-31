@@ -88,6 +88,8 @@ header{
 table th {
     background: white;
     opacity: 0.6;
+
+    color: var(--dark-blue);
 }
 
 table td {
